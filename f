@@ -1,0 +1,1 @@
+cat result-*.txt | egrep -v "^[(Type)|(not)]" | sort | uniq
